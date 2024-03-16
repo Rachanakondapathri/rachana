@@ -1,13 +1,3 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-                echo "${GIT_COMMIT}"
-                echo "{GIT_LOCAL_BRANCH}"
-            }
-        }
-    }
-}
+this is line 1
+this is line 2
+this is line 3
